@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gitpod</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="navbar">
+
+        <div class="navbar-content">
+
+            <div class="navbar-brand">
+                <img src="icons/icon.svg">
+                <p>Gitpod</p>
+            </div>
+            <div class="navbar-links">
+                <a href="#"><span class="item-navbar">Features</span></a>
+                <a href="#"><span class="item-navbar">Pricing</span></a>
+                <a href="#"><span class="item-navbar">Blog</span></a>
+                <a href="#"><span class="item-navbar">Docs</span></a>
+                <a href="#"><span class="item-navbar">Changelog</span></a>
+                <a href="#"><span class="item-navbar">We're hiring</span></a>
+            </div>
+            <div class="login">
+                Login
+            </div>
+        </div>
+        <div class="progressLine-bg">
+            <div id="progressLine"></div>
+        </div>
+
+    </div>
+
+    <div class="container-bg">
+
+
+        <div class="container">
+
+
+            <div class="header">
+                <div class="sides cont-header">
+                    <div class="text-data-header">
+                        <div class="header-text">
+                            Always <br> Ready to code
+                        </div>
+                        <div class="header-info">
+                            Spin up fresh, automated dev environments <br> for each task, in the cloud, in seconds.
+                        </div>
+                        <div class="links">
+                            <div class="sides">
+                                <button>Try Now</button>
+                                <a href="#"><img src="icons/fox.svg" alt=""></a>
+                                <a href="#"><img src="icons/git.svg" alt=""></a>
+                                <a href="#"><img src="icons/blue.svg" alt=""></a>
+                            </div>
+                            <div class="sides">
+                                <p>Open a workspace. <br> Start from any Git context.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sides"><img class="img-header" src="img/header.svg"></div>
+            </div>
+
+            <div class="bg-text">
+                <div class="some-recomend-text">
+                    <p>Select project,</p>
+                    <p><s>check dependencies, checkout branch, view</s></p>
+                    <p><s>readme.txt, install tools, run build, run test,</s></p>
+                    <p>start coding.</p>
+                </div>
+            </div>
+
+
+            <div class="cd-ci-bg">
+
+                <div class="cd-ci-cont">
+
+                    <div class="this-cont">
+
+                        <p class="name-sector">Think CI/CD for dev environments</p>
+                        <p class="cont-sector">We invented prebuilds so application code, configuration and infrastructure can all be stored as machine-executable code in your git repositories and applied to dev environments automatically and continuously.</p>
+
+                    </div>
+
+                    <div class="this-btns">
+
+                        <button class="first-btn">
+                            More on prebuilds
+                        </button>
+                        <button class="second-btn">
+                            Documentation
+                        </button>
+
+                    </div>
+                </div>
+
+                <div class="cd-ci-img">
+                    <img src="img/cd-ci.svg">
+                </div>
+
+            </div>
+
+
+            <div class="sector">
+
+                <div class="name-of-sector">
+                    Remote-first. Secure by design.
+                </div>
+
+                <div class="sector-img">
+                    <img src="img/img-git.svg">
+                </div>
+
+                <div class="text-of-sector">
+                    <p>
+                        You no longer need an over-powered laptop to code, Gitpod works just as smoothly on a Chromebook or iPad. All you need is a browser. Gitpod centralizes all source code and never stores it on insecure machines and networks.
+                    </p>
+                </div>
+                <div class="expressions">
+                    <div class="expression">
+                        <img src="icons/chrome.svg">
+                        <p>Chrome Extension</p>
+                        <div class="border"></div>
+                        <div class="color"></div>
+                    </div>
+                    <div class="expression">
+                        <img src="icons/fire-fox.svg">
+                        <p>Firefox Extension</p>
+                        <div class="border"></div>
+                        <div class="color"></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="slider-sector">
+
+                <div class="text-of-slider">
+                    Used by 400,000+ developers.
+                </div>
+
+                <div class="slider-bg">
+                    <div class="slider">
+                        <div class="btns first" id="right"></div>
+                        <div class="btns second" id="left"></div>
+                        <div class="slider-middler" id="slider">
+
+                            <div class="slider-item">
+                                <div class="textComment">
+                                    <p>
+                                        GitPod is incredibly cool.
+                                    </p>
+                                    <br>
+                                    <p>
+                                        In my opinion, this is a big step in open source software contribution. I'm excited to see where we go from here.
+                                    </p>
+                                </div>
+                                <div class="autor">
+                                    <div class="avatar">
+                                        <img src="icons/autor1.svg">
+                                    </div>
+                                    <div class="someInfo">
+                                        <div class="nickName">
+                                            Ben Halpern
+                                        </div>
+                                        <div class="job">
+                                            Creator and Co-founder <span>@forem</span> and <span>@ThePracticalDev</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="textComment">
+                                    <p>
+                                        Let's say we were overwhelmed how smooth @gitpod workspaces creation & own Docker image for workspaces worked.
+                                    </p>
+                                    <br>
+                                    <p>
+                                        Plus, installing @code extensions from the store and integrating @gitlab CI. That blew my mind entirely, and that is hard ;)
+                                    </p>
+                                </div>
+                                <div class="autor">
+                                    <div class="avatar">
+                                        <img src="icons/autor2.svg">
+                                    </div>
+                                    <div class="someInfo">
+                                        <div class="nickName">
+                                            Michael Friedrich
+                                        </div>
+                                        <div class="job">
+                                            Developer Evangelist <span>@GitLab</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="textComment">
+                                    <p>
+                                        Look at any PR (pull request) in a full coding environment where you can edit, build, and test the PR code, by just prepending "gitpod.io#" to the PR URL. Super useful for reviewing/testing stuff without having to check it out locally!
+                                    </p>
+                                </div>
+                                <div class="autor">
+                                    <div class="avatar">
+                                        <img src="icons/autor3.svg">
+                                    </div>
+                                    <div class="someInfo">
+                                        <div class="nickName">
+                                            Julius Volz
+                                        </div>
+                                        <div class="job">
+                                            Creator <span>@PrometheusIO</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="textComment">
+                                    <p>
+                                        I think I’m in love with @gitpod. It’s such a powerful tool. I’ve learned so much in the past week just from stumbling across Github repos that interest me and appending “http://gitpod.io/#” to the URL. A+ tool all around.
+                                    </p>
+                                </div>
+                                <div class="autor">
+                                    <div class="avatar">
+                                        <img src="icons/autor4.svg">
+                                    </div>
+                                    <div class="someInfo">
+                                        <div class="nickName">
+                                            David Ressler
+                                        </div>
+                                        <div class="job">
+                                            Engineering Manager <span>@Tech</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="textComment">
+                                    <p>
+                                        Huge time saver, less frustrations for devs: Automated ready-to-code dev environments with pre-build workspaces. #gitpod #cloudide
+                                    </p>
+                                </div>
+                                <div class="autor">
+                                    <div class="avatar">
+                                        <img src="icons/autor1.svg">
+                                    </div>
+                                    <div class="someInfo">
+                                        <div class="nickName">
+                                            Sven Peters
+                                        </div>
+                                        <div class="job">
+                                            Manager <span>@MongoDB</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="textComment">
+                                    <p>
+                                        I never delve into myself, I can’t stand such things, I don’t even like being told by my hand. There were times when I was told: "Be sure to go to such and such - he predicts great accurately." But to be honest, it scares me. I want to find out everything
+                                        myself. It would be very boring to know what should happen to me, because then I would spend my whole life trying to avoid it.
+                                    </p>
+                                </div>
+                                <div class="autor">
+                                    <div class="avatar">
+                                        <img src="icons/Freddie.jpg">
+                                    </div>
+                                    <div class="someInfo">
+                                        <div class="nickName">
+                                            Freddie Mercury
+                                        </div>
+                                        <div class="job">
+                                            The important Singer of <span>Queen</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="sponsors">
+                <div class="sponsors-line">
+                    <img src="logos/logo1.svg">
+                    <img src="logos/logo2.svg">
+                    <img src="logos/logo3.svg">
+                    <img src="logos/logo4.svg">
+                    <img src="logos/logo5.svg">
+                    <img src="logos/logo6.svg">
+                    <img src="logos/logo7.svg">
+                </div>
+                <div class="sponsors-line">
+                    <img src="logos/logo8.svg">
+                    <img src="logos/logo9.svg">
+                    <img src="logos/logo10.svg">
+                    <img src="logos/logo11.svg">
+                    <img src="logos/logo12.svg">
+                </div>
+            </div>
+
+            <div class="get-started-bg">
+
+                <div class="name-of-sector">
+                    Get started now
+                </div>
+
+                <div class="getStarted">
+                    <div class="gitRepository item-of-started">
+                        <div class="cont-item">
+                            <h1>
+                                Connect Git repository
+                            </h1>
+
+                            <p>
+                                Select a Git provider to start with an existing project from any Git context.
+                            </p>
+                            <button class="orange">
+                                <img src="icons/btn1.svg">
+                                <p>Continue with GitLab</p>
+                            </button>
+                            <button class="black">
+                                <img src="icons/btn2.svg">
+                                <p>Continue with GitHub</p>
+                            </button>
+                            <button class="blue">
+                                <img src="icons/btn3.svg">
+                                <p>Continue with Bitbucket</p>
+                            </button>
+                            <p>
+                                Or prefix any GitLab, GitHub or Bitbucket URL with
+                            </p>
+                            <span>
+                                <p> gitpod.io/#</p>
+                        </span>
+                        </div>
+                    </div>
+                    <div class="launch item-of-started">
+                        <div class="cont-item-launch">
+                            <h1>
+                                Launch an example workspace
+                            </h1>
+                            <p>
+                                Dive into one of our example workspaces
+                            </p>
+                            <div class="item-with-launch-bg">
+                                <div class="item-with-launch">
+                                    <div class="group-item">
+                                        <img src="langIcons/tp.svg">
+                                        <p>TypeScript</p>
+                                    </div>
+                                    <div class="btn-launch">Launch workspace</div>
+                                </div>
+                            </div>
+                            <div class="item-with-launch-bg">
+                                <div class="item-with-launch">
+                                    <div class="group-item">
+                                        <img src="langIcons/python.svg">
+                                        <p>Python</p>
+                                    </div>
+                                    <div class="btn-launch">Launch workspace</div>
+                                </div>
+                            </div>
+                            <div class="item-with-launch-bg">
+                                <div class="item-with-launch">
+                                    <div class="group-item">
+                                        <img src="langIcons/go.svg">
+                                        <p>Go</p>
+                                    </div>
+                                    <div class="btn-launch">Launch workspace</div>
+                                </div>
+                            </div>
+                            <div class="item-with-launch-bg">
+                                <div class="item-with-launch">
+                                    <div class="group-item">
+                                        <img src="langIcons/Rs.svg">
+                                        <p>Rust</p>
+                                    </div>
+                                    <div class="btn-launch">Launch workspace</div>
+                                </div>
+                            </div>
+                            <div class="item-with-launch-bg">
+                                <div class="item-with-launch">
+                                    <div class="group-item">
+                                        <img src="langIcons/java.svg">
+                                        <p>Java</p>
+                                    </div>
+                                    <div class="btn-launch">Launch workspace</div>
+                                </div>
+                            </div>
+                            <div class="item-with-launch-bg">
+                                <div class="item-with-launch">
+                                    <div class="group-item">
+                                        <img src="langIcons/svelte.svg">
+                                        <p>Svelte</p>
+                                    </div>
+                                    <div class="btn-launch">Launch workspace</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bg">
+        <div class="footer">
+            <div class="gitpod-footer footer-item">
+                <p class="header-row-footer">
+                    Gitpod
+                </p>
+                <a href="#">
+                    <p>Home</p>
+                </a>
+                <a href="#">
+                    <p>Features</p>
+                </a>
+                <a href="#">
+                    <p>Picing</p>
+                </a>
+                <a href="#">
+                    <p>Changelog</p>
+                </a>
+                <a href="#">
+                    <p>Self-Hosted</p>
+                </a>
+                <a href="#">
+                    <p>Gitpod vs Github Codespaces</p>
+                </a>
+                <a href="#">
+                    <p>Status</p>
+                </a>
+            </div>
+            <div class="developer footer-item">
+                <p class="header-row-footer">
+                    Developer
+                </p>
+                <a href="#">
+                    <p>Getting started</p>
+                </a>
+                <a href="#">
+                    <p>Screencasts</p>
+                </a>
+                <a href="#">
+                    <p>Blog</p>
+                </a>
+                <a href="#">
+                    <p>Documentation</p>
+                </a>
+                <a href="#">
+                    <p>Report a bug</p>
+                </a>
+                <a href="#">
+                    <p>Community</p>
+                </a>
+            </div>
+            <div class="company footer-item">
+                <p class="header-row-footer">
+                    Company
+                </p>
+                <a href="#">
+                    <p>About</p>
+                </a>
+                <a href="#">
+                    <p>Careers</p>
+                </a>
+                <a href="#">
+                    <p>Contact</p>
+                </a>
+                <a href="#">
+                    <p>Media Kit</p>
+                </a>
+            </div>
+            <div class="legal footer-item">
+                <p class="header-row-footer">
+                    Developer
+                </p>
+                <a href="#">
+                    <p>Imprint</p>
+                </a>
+                <a href="#">
+                    <p>Terms of Service</p>
+                </a>
+                <a href="#">
+                    <p>Privacy Policy</p>
+                </a>
+            </div>
+            <hr/>
+            <div class="links">
+                <div class="s1">
+                    <img src="icons/icon.svg">
+                    <p>
+                        Copyright © 2021 Gitpod
+                    </p>
+                </div>
+                <div class="s1">
+                    <img src="icons/f1.svg">
+                    <img src="icons/f2.svg">
+                    <img src="icons/f3.svg">
+                </div>
+            </div>
+        </div>
+        <div class="cookie">
+            <div>
+                <p>
+                    This website uses cookies to enhance the user experience. Read our <a href="#">privacy policy</a> for more info.
+                </p>
+                <button>
+                    Accept Cookies
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
